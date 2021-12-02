@@ -19,3 +19,19 @@ mkdir new_project
 cd new_project
 git init
 ```
+
+## Basic flow
+
+```sh
+# stage new files for commit
+git add *.py
+
+# check what we're going to commit
+git status
+
+# commit!
+git commit -m "Message for new commit"
+
+# check recent history (3 last commits)
+git log --oneline -n 3
+```
