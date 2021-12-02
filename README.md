@@ -47,3 +47,11 @@ git restore --staged <file>
 # or
 git reset -- <file>
 ```
+
+## .gitignore
+
+Just take one from https://github.com/github/gitignore
+
+For Python:
+
+https://github.com/github/gitignore/blob/master/Python.gitignore
