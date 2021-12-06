@@ -55,3 +55,20 @@ Just take one from https://github.com/github/gitignore
 For Python:
 
 https://github.com/github/gitignore/blob/master/Python.gitignore
+
+## Branches
+
+```sh
+# view  all branches
+git branch
+
+# create a new branch
+git branch 'new-branch-name'
+
+# switch to a branch
+git switch 'new-branch-name'
+
+# create and switch
+git switch -c new-branch
+git switch --create new-branch
+```
