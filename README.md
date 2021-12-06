@@ -72,3 +72,16 @@ git switch 'new-branch-name'
 git switch -c new-branch
 git switch --create new-branch
 ```
+
+### Merge
+
+```
+# switch to target branch
+git switch master
+
+# merge new-branch into master
+git merge new-branch
+
+# remove fully merged branch
+git branch -d new-branch
+```
