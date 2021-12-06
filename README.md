@@ -39,17 +39,11 @@ git log --oneline -n 3
 ## More on working with staging area
 
 ```sh
-# potentially destructive
-git rm <file>
-git rm --cached <file>
-
-# /!\ potentially destructive operation! /!\
-# restores to the current commit
+# restore an unstaged file to the version of the current commit (HEAD)
 git restore <file>
 
-# preserve changes
-git restore --cached <file>
-
-# unstage a file, preserve changes
-git reset HEAD -- <file>
+# unstage a file
+git restore --staged <file>
+# or
+git reset -- <file>
 ```
