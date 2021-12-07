@@ -1,4 +1,4 @@
-# Git Basics a
+# Git Basics
 
 ## Initial Setup
 
