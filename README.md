@@ -85,3 +85,5 @@ git merge new-branch
 # remove fully merged branch
 git branch -d new-branch
 ```
+# a successful Git branching model
+https://habr.com/ru/post/106912/
