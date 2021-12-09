@@ -81,7 +81,10 @@ git switch master
 
 # merge new-branch into master
 git merge new-branch
-
+ 
 # remove fully merged branch
-git branch -d new-branch
+git branch -d new-
+branch
+Vim hey.txt
+
 ```
