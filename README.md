@@ -36,7 +36,7 @@ git commit -m "Message for new commit"
 git log --oneline -n 3
 ```
 
-## More on working with staging area
+### More on working with staging area
 
 ```sh
 # restore an unstaged file to the version of the current commit (HEAD)
@@ -48,7 +48,7 @@ git restore --staged <file>
 git reset -- <file>
 ```
 
-## .gitignore
+### .gitignore
 
 Just take one from https://github.com/github/gitignore
 
